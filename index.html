@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Evalucaion Final CCS & Diseño Responsive">
+  <meta name="keywords" content="HTML,CSS,NextU,Curso,Diseño,Responsivo">
+  <meta name="author" content="Andres Calvo">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Comenzando con la Fotografía</title>
+  <!-- Font Dancing -->
+  <style>
+  		@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+  </style>
+  <!-- Css -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<!-- Contenido -->
+	<div id="contenido">
+
+		<!-- Header-->
+		<header id="cabecera">
+
+			<!-- Logo -->
+			<div id="logo">
+				<a href="index.html">
+					<p>Comenzando con la Fotografía</p>
+				</a>
+			</div>
+
+			<!-- MENU -->
+			<nav>
+				<ul>
+					<li><a href="index.html" id="inicio">Inicio</a></li>
+					<li><a href="paisajes.html" id="inicio1">Paisajes</a></li>
+					<li><a href="retratos.html" id="inicio2">Retratos</a></li>
+				</ul>
+			<nav>
+		</header>
+
+		<!-- MAIN -->
+		<section id="main">
+
+			<!-- Imagen primaria -->
+			<section class="img-central">
+          <figure>
+            <picture>
+            <source media="(max-width:900px)"  srcset="imagenes/costa-rica.jpg">
+            <img src="imagenes/costa-rica.jpg" alt="imagen principal" width="100%">
+            </picture>
+            <!--<figcaption style="text-align: center">Imagen Principal</figcaption>-->
+          </figure>
+			</section><!-- /. imagen primaria -->
+
+			<!-- IMAGENES SECUNDARIAS (enlaces) -->
+			<section class="imgs-secundarias">
+
+				<!-- Paisajes -->
+        <figure>
+          <picture>
+            <source media="(max-width:900px)"  srcset="imagenes/tukan.jpg">
+            <img src="imagenes/tukan.jpg" alt="imagen principal" width="100%">
+          </picture>
+          <a href="retratos.html">
+            <figcaption style="text-align: center">Paisajes</figcaption>
+          </a>
+        </figure><!-- /. imagen secundaria paisajes -->
+
+				<!-- Retratos -->
+        <figure>
+          <picture>
+            <source media="(max-width:900px)"  srcset="imagenes/lapa.jpg">
+            <img src="imagenes/lapa.jpg" alt="imagen principal" width="100%">
+          </picture>
+          <a href="retratos.html">
+            <figcaption style="text-align: center">Retratos</figcaption>
+          </a>
+        </figure><!-- /. imagen secundaria retratos -->
+			</section><!-- /. imagen secundarias -->
+
+		</section><!-- /. main -->
+
+		<!-- FOOTER -->
+		<footer id="pie">
+
+			<!-- CONTACTO -->
+			<section id="contacto">
+
+				<h3>Contácto</h3>
+
+				<div class="correo">
+					<a href="mailto:andresna88@gmail.com">
+						<img src="imagenes/Mail.png" class="icon" alt="Correo">
+					    andresna88@gmail.com
+					</a>
+				</div>
+
+				<div class="direccion">
+					<a href="#">
+						<img src="imagenes/dir.png" class="icon" alt="Direccion">
+					    San Jose, Paso Ancho
+					</a>
+				</div>
+
+				<div class="telefono">
+					<a href="#">
+						<img src="imagenes/phone.png" class="icon" alt="Telefono">
+					    +506 6076-9206
+					</a>
+				</div>
+			</section>
+
+			<!-- TERMINOS -->
+			<section id="terminos">
+				<h3>Términos</h3>
+				<p>Uso de aprendisaje en NextU.</p>
+			</section>
+
+			<!-- REDES SOCIALES -->
+			<section id="redes-sociales">
+
+				<h3>Redes Sociales</h3>
+				<!-- FACEBOOK -->
+				<div id="facebook">
+					<a href="#">
+						<img src="imagenes/face.png" class="icon" alt="Facebook">
+					@andresC
+					</a>
+				</div>
+
+				<!-- TWITTER -->
+				<div id="twitter">
+					<a href="#">
+						<img src="imagenes/Twitter.png" class="icon" alt="Twitter" >
+					@andresC
+					</a>
+				</div>
+
+				<!-- Youtube -->
+				<div id="googleplus">
+					<a href="#">
+						<img src="imagenes/youtube.png" class="icon" alt="Youtube" >
+					@andresC
+					</a>
+				</div>
+			</section>
+
+			<!-- DERECHOS -->
+			<section id="derechos">
+				<h3>Derechos</h3>
+				<p>&copy;2018. Andres Calvo</p>
+			</section>
+		</footer>
+	</div>
+</body>
+</html>
